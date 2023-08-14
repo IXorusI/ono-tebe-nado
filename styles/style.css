@@ -1,1 +1,70 @@
-/* место для вашего кода */
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(142, 145, 138);
+}
+
+.header-menu {
+    border: 1px solid #fd24af;
+    padding-inline-start: 0;
+}
+
+.header-logo {
+    display: flex;
+    border: 1px solid #fd24af;
+    width: 148px;
+    height: 105px;
+}
+
+.header-menu-table {
+    display: flex;
+}
+
+.header-menu-table-link-no-dot {
+    list-style: none
+}
+
+.header-menu-table-link {
+    display: list-item;
+    list-style: circle;
+}
+
+.contacts{
+    display: flex;
+    border: 1px solid #fd24af;
+    justify-content: end;
+}
+
+.cover {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.lots {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.about {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(99, 35, 158);
+
+}
+
+.footer {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 44, 48);
+}
