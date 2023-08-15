@@ -8,11 +8,6 @@ a, p {
     line-height: 24.3px;   
 }
 
-.fine-text-border {
-    text-decoration-line: none;
-    border-bottom: 1px solid black;
-}
-
 .cover-title {
     display: block;
     font-size: 100px;
@@ -20,7 +15,6 @@ a, p {
     font-weight: 700;
     line-height: 115%; /* 115px */
     letter-spacing: 60px;
-
     text-transform: uppercase;
     color: white;
     margin: 0 50px 20px 50px;
@@ -37,7 +31,7 @@ a, p {
     justify-content: space-between;
     align-content: space-between;
     max-width: 100%;
-    margin: 90px 50px;
+    margin: 92px 50px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;   
@@ -48,7 +42,7 @@ a, p {
 .header-menu {
     display: flex;
     position: relative;
-    align-items:center;
+    align-items: center;
     white-space: nowrap;
     padding-inline-start: 0;
 }
@@ -71,11 +65,11 @@ a, p {
 
 .header-menu-table-link {
     list-style: circle;
-    text-decoration: none;
+    text-decoration-line: none;
+    border-bottom: 1px solid black;
 }
 
-.contacts{
-
+.address{
     flex-direction: column;
     justify-content: start;
     width: 240px;
@@ -88,8 +82,10 @@ a, p {
     min-width: 100%;
     height: 757px;
     padding-top: 165px;
+    margin-top: 0;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
+    background-clip: border-box;
 }
 
 .title {
@@ -97,50 +93,128 @@ a, p {
 }
 
 .lots {
-    width: 100px;
-    height: 100px;
+    max-width: 1340px;
+    width: 100%;
+    height: 579px;
     background-color: black;
-
+    margin: 180px 50px;
 }
 
 .about {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(99, 35, 158);
+    display: flex;
+    max-width: 1340px;
+    width: 100%;
+    height: 487px;
+    margin: 180px 50px;
+    justify-content: space-between;
 
 }
+
+.about-logo {
+    display: flex;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    max-height: 240px;
+    height: 100%;
+    padding: 0 95px;
+
+
+}
+
+.footer-logo {
+    display: flex;
+    align-self: center;
+    width: 148px;
+    height: 114px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+    ellipse at center,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 70%,
+    rgba(0, 0, 0, 0) 70.3%
+  );
+    height: 100%;
+    width: 100%;
+    max-width: 240px;
+    width: 100%;
+    max-height: 240px;
+    height: 100%;
+}
+
+.about-column {
+    display: flex;
+    max-width: 885px;
+    width: 100%;
+    max-height: 388px;
+    height: 100%;
+    align-self: end;
+    background-color: rgb(150, 121, 179);
+}
+
+
+
+
 
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    min-width:100%;
-    margin: auto;
+    max-width: 100%;
+    margin: 90px 50px;
     height: 100px;
-    background-color: rgb(139, 44, 48);
     justify-content: space-between;
     align-content: space-between;
-    justify-items: center;
+}
+
+.address-footer {
+    justify-self: start;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    align-self: start;
+    align-content: center;
+    padding-inline-start: 0;
+    margin: 0;
+
+}
+
+.footer-menu-table {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.socials {
-    
+.footer-menu-table-link-no-dot {
     display: flex;
-    justify-content: space-between;
-    width: 240px;
-    height: 48px;
-    border: 1px solid #fd24af;
+    justify-content: center;
+    list-style: none;
 }
 
-
-.footer-menu {
-    flex-direction: column;
-    white-space: nowrap;
-    align-self: center;
-    border: 1px solid #fd24af;
-}
 
 .footer-menu-table-link {
-    list-style: none;
-    
+    display: flex;
+    justify-content: center;
+    list-style: circle;
+    text-decoration-line: none;
+    border-bottom: 1px solid black;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    align-self: start;
+    max-width: 240px;
+    width: 100%;
+    height: 48px;
 }
