@@ -15,7 +15,7 @@ body {
   max-width: 1440px;
   max-height: 2844px;
   margin: auto;
-  padding: 1px;
+  padding-top: 1px;
   font-family: Raleway, sans-serif;
   background-color: white;
 }
