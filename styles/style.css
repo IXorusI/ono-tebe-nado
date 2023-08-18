@@ -73,7 +73,7 @@ a, p {
 }
 
 .cover-title {
-    display: block;
+    display: flex;
     font-size: 100px;
     max-width: 1340px;
     width: 100%;
@@ -90,7 +90,9 @@ a, p {
     gap: 20px;    
 }
 
-.text-left {text-align: left;}
+.text-left {
+    align-self: end;
+}
 .text-center {text-align: center;}
 .text-right {text-align: end;}
 
