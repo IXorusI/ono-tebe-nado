@@ -17,8 +17,7 @@ a, p {
     margin: 92px 49px 92px 51px;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;   
-
+    font-weight: 400;
 }
 
 
@@ -93,7 +92,7 @@ a, p {
 .ono-tebe-nado {
     display: flex;
     flex-direction: column;
-    gap: 20px;   
+    gap: 20px;
 }
 
 .text-left {
@@ -170,7 +169,7 @@ a, p {
     display: flex;
     width: 633px;
     justify-self: center;
-    justify-content: space-between;    
+    justify-content: space-between;
     padding-inline-start: 0;
 }
 
@@ -251,7 +250,7 @@ a, p {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    flex-grow: 1;  
+    flex-grow: 1;
 }
 
 .lot-title {
@@ -276,7 +275,7 @@ a, p {
 
 .lots-logo {
     max-width: 430px;
-    width: 100%;    
+    width: 100%;
 }
 
 
