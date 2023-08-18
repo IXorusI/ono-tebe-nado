@@ -5,7 +5,7 @@ a, p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px;   
+    line-height: 24.3px;
 }
 
 .header {
@@ -52,7 +52,7 @@ a, p {
     list-style: none;
 }
 
-.address{
+.address {
     flex-direction: column;
     justify-content: start;
     width: 240px;
@@ -96,7 +96,10 @@ a, p {
     gap: 20px;   
 }
 
-.text-left {align-self: start;}
+.text-left {
+    align-self: start;
+}
+
 .text-right {
     text-align: end;
     letter-spacing: 0px;
@@ -317,7 +320,6 @@ a, p {
     width: 148px;
     height: 114px;
     flex-shrink: 0;
-    align-self: center;
 }
 
 .logo {
@@ -328,10 +330,7 @@ a, p {
     ellipse at center,
     rgb(0, 0, 0) 0%,
     rgb(0, 0, 0) 70%,
-    rgba(0, 0, 0, 0) 70.3%
-  );
-    height: 100%;
-    width: 100%;
+    rgba(0, 0, 0, 0) 70.3%);
     max-width: 240px;
     width: 100%;
     max-height: 240px;
