@@ -33,30 +33,50 @@
           <span class="text-align-center">Те<span class="text-letter-spacing-big">бe</span></span>
           <span class="text-align-end"><span class="text-letter-spacing-big">Н</span>ад<span class="text-letter-spacing-none">о</span></span>
         </h1>
-        <div class="cover-footer">          
-          <p class="cover-footer-text">Аукцион вещей, в которые никто не верил</p> 
-          <button class="button" type="button">Сделать ставку</button>
+        <div class="cover__description">          
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p> 
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
 
       <section class="lots">
-        <h2 class="lots-title">Лоты</h2>
-        <ul class="lots_table">
-          <li class="lot-1">
-            <span><a href="" class="lot-title">Фильм режиссёра, который бросил киношколу</a></span>
-            <p class="lot-p">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+
+          <li class="lots__card-list-item">
+            <div class="overlay"></div>
+            <a href="card_type_film_link" class="card-link">
+              
+              <article class="card card_type_film">
+                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>
+            </a>
           </li>
-          <li class="lot-2">
-            <span><a href="" class="lot-title">Книга, где описан один скучный день из жизни рекламного агента</a></span>
-            <p class="lot-p">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
-              В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
-              И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+
+          <li class="lots__card-list-item">
+            <a href="card_type_book_link" class="card-link">
+              <div class="overlay"></div>
+              <article class="card card_type_book">
+                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
+                 В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
+                 И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </article>
+            </a>
           </li>
-          <li class="lot-3">
-            <span><a href="" class="lot-title">Картина, которую повторит даже 5-летний сын маминой подруги</a></span>
-            <p class="lot-p">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
-              Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+
+          <li class="lots__card-list-item">
+            <a href="card_type_picture_link" class="card-link">
+              <div class="overlay"></div>
+              <article class="card card_type_picture">
+                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
+                  Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>
+            </a>
           </li>
+
         </ul>
         <p class="lots-more">посмотреть больше</p>
       </section>
@@ -64,7 +84,7 @@
       <section class="about">
         <div class="about-logo">
           <div class="logo">
-            <img src="images/logo-white.svg" alt="Логотип чёрного цвета" class="footer-logo">
+            <img src="images/logo-white.svg" alt="Логотип чёрного цвета" class="about-logo_svg">
           </div>
         </div>
         <div class="about-column">
@@ -87,15 +107,16 @@
           <a href="mailto:info@sobaka.ge" class="header-menu-table-link">info@sobaka.ge</a> 
           <p>наб. Принсенграхт 263-265, Амстердам</p>     
         </address>
-        <div class="footer-menu">
+        <nav class="footer-menu">
           <ul class="footer-menu-table">
-            <li class="footer-menu-table-link-no-dot"><a href="#header" class="footer-text">главная</a></li>
-            <li class="footer-menu-table-link"><a href="#lots" class="footer-text">посмотреть лоты</a></li>
-            <li class="footer-menu-table-link"><a href="#about" class="footer-text">об аукционе</a></li>
+            <li class="footer_menu_text footer_menu_text_without_underline"><a href="#header" class="footer-text">главная</a></li>
+            <li class="footer_menu_text"><a href="#lots" class="footer-text">посмотреть лоты</a></li>
+            <li class="footer_menu_text"><a href="#about" class="footer-text">об аукционе</a></li>
           </ul>
-        </div>
+        </nav>
         <div class="socials">
-          <img src="images/yt.svg" alt="иконка ютуб">
+          <a href="youtube.com" class="footer_icon"><img src="images/yt.svg" alt="иконка ютуб"></a>
+
           <img src="images/vk.svg" alt="иконка ВК">
           <img src="images/pinterest.svg" alt="иконка принтерест">
         </div>
