@@ -211,7 +211,7 @@ a, p {
 
 .lots__card-list-item {
     position: relative;
-    max-width: 430px;
+    width: 430px;
     min-height: 450px;
     height: auto;
     flex-grow: 1;
@@ -420,17 +420,7 @@ a, p {
     line-height: normal;
 }
 
-.footer_icon_youtube {
-    height: 48px;
-    width: 48px;
-}
-
-.footer_icon_vk {
-    height: 48px;
-    width: 48px;
-}
-
-.footer_icon_printerest {
+.footer__social-icon {
     height: 48px;
     width: 48px;
 }
