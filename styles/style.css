@@ -203,7 +203,6 @@ a, p {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     justify-content: flex-start;
     width: 100%;
     grid-row: 2;
